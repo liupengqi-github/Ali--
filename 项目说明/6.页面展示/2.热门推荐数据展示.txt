@@ -1,0 +1,5 @@
+														1.向服务器端发送请求索要热门推荐数据
+														2.使用模板引擎将数据和html模板进行拼接，将拼接好的内容显示在页面中
+															var str = '<div>{{name}}</div>'
+															var obj = {name: '张三'}
+															var html = template.render(str.obj) 
